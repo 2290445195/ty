@@ -1,0 +1,7 @@
+source ~/.bashrc
+ conda activate  py37
+ conda activate  pure
+tail -f PURE/log/re_bc.log
+tail -f
+ps aux 查看运行的进程
+ps -ef  查看所有进程
